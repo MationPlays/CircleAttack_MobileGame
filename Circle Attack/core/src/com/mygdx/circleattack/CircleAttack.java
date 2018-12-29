@@ -19,9 +19,9 @@ public class CircleAttack extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-		squr = new Texture("Assets/Square_Blue.png");
-		square = new Sprite(squr, 100, 100, 80, 80);
+		//img = new Texture("badlogic.jpg");
+		//squr = new Texture("Assets/Square_Blue.png");
+		//square = new Sprite(squr, 100, 100, 80, 80);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class CircleAttack extends ApplicationAdapter {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-		batch.draw(squr, 100, 100);
+		//batch.draw(squr, 100, 100);
 		batch.end();
 	}
 
@@ -46,7 +46,7 @@ public class CircleAttack extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
-		squr.dispose();
+		//img.dispose();
+		//squr.dispose();
 	}
 }

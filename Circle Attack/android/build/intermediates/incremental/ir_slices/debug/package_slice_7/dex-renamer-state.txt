@@ -1,0 +1,4 @@
+#Sat Dec 29 19:44:04 CET 2018
+base.0=/Users/gabrielveiz/Desktop/CircleAttack_MobileGame/Circle Attack/android/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
